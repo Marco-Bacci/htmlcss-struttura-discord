@@ -45,6 +45,24 @@ section{
 .bg-fuchsia{
   background-color: fuchsia;
 }
+.bg-grey{
+  background-color: rgb(190, 188, 188);
+}
+.bg-lightblue{
+  background-color: rgb(36, 172, 235);
+}
+.bg-pink{
+  background-color: pink;
+}
+.bg-color{
+  background-color: green;
+}
+.bg-salmon{
+  background-color: salmon;
+}
+.bg-color{
+  background-color: cyan;
+}
 
 /*header*/
 
