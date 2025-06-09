@@ -22,6 +22,10 @@ div {
 .d-flex {
   display: flex;
 }
+
+.reverse{
+  flex-direction: row-reverse;
+}
 section{
   height: 500px;
   padding: 50px;
@@ -102,3 +106,4 @@ li {
 .big-col, .small-col{
 height: 400px;
 }
+
