@@ -133,9 +133,9 @@ footer{
   background-color: rgb(35, 39, 42)
 }
 div[class*="sec-col"]{
-  width: 18%;
-  background-color: cyan;
+flex-grow: 1;
+background-color: cyan;
 }
 .main-col{
-  flex-grow: 1;
+  flex-grow: 2;
 }
