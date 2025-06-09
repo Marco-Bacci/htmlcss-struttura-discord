@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  background-color: white;
+}
 
 /*utils*/
 
@@ -10,21 +13,37 @@
   max-width: 1200px;
   margin: 0 auto;
 }
-div{
+
+div {
   border: 2px dashed black;
 }
+
 .d-flex {
   display: flex;
+}
+section{
+  height: 500px;
+  padding: 50px;
 }
 
 .pd-10 {
   padding: 0 10px;
 }
-.col-25{
+
+.col-25 {
   width: 25%;
 }
-.col-60{
+
+.col-60 {
   width: 60%;
+}
+
+/*colors*/
+.bg-blue{
+  background-color: blue;
+}
+.bg-fuchsia{
+  background-color: fuchsia;
 }
 
 /*header*/
@@ -49,3 +68,10 @@ li {
   line-height: 70px;
 }
 
+/*jumbotron*/
+.jumbotron{
+  width: 50%;
+  height: 400px;
+  
+}
+  
