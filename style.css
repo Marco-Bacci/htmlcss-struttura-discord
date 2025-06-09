@@ -20,6 +20,7 @@ div {
   border: 2px dashed black;
 }
 
+
 .d-flex {
   display: flex;
 }
@@ -98,6 +99,9 @@ li {
   list-style-type: none;
   padding: 0 10px;
 }
+.d-grow{
+  flex-grow: 1;
+}
 
 .main-bar {
   display: flex;
@@ -106,6 +110,10 @@ li {
   height: 70px;
   background-color: yellow;
   line-height: 70px;
+}
+
+.login {
+  text-align: end;
 }
 
 /*jumbotron*/
@@ -146,8 +154,9 @@ div[class*="sec-col"] {
 .main-col {
   flex-grow: 2;
 }
+
 /*final bar*/
-.end-bar{
+.end-bar {
   justify-content: space-between;
   align-items: center;
   width: 100%;
@@ -155,4 +164,3 @@ div[class*="sec-col"] {
   margin-top: 15px;
   background-color: aquamarine;
 }
-  
