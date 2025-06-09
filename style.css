@@ -20,9 +20,11 @@ div{
 .pd-10 {
   padding: 0 10px;
 }
-
-.dashed {
-  border: 2px dashed black;
+.col-25{
+  width: 25%;
+}
+.col-60{
+  width: 60%;
 }
 
 /*header*/
@@ -46,3 +48,4 @@ li {
   background-color: yellow;
   line-height: 70px;
 }
+
