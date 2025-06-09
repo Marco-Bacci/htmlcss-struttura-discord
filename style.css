@@ -3,7 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
+
+body {
   background-color: white;
 }
 
@@ -23,10 +24,11 @@ div {
   display: flex;
 }
 
-.reverse{
+.reverse {
   flex-direction: row-reverse;
 }
-section{
+
+section {
   height: 500px;
   padding: 50px;
 }
@@ -38,40 +40,51 @@ section{
 .col-25 {
   width: 25%;
 }
-.col-40{
+
+.col-40 {
   width: 40%;
 }
+
 .col-60 {
   width: 60%;
 }
 
 
 /*colors*/
-.bg-blue{
+.bg-blue {
   background-color: blue;
 }
-.bg-fuchsia{
+
+.bg-fuchsia {
   background-color: fuchsia;
 }
-.bg-grey{
+
+.bg-grey {
   background-color: rgb(207, 204, 204);
 }
-.bg-lightblue{
+
+.bg-lightblue {
   background-color: #1E90FF;
 }
-.bg-pink{
+
+.bg-pink {
   background-color: pink;
 }
-.bg-color{
+
+.bg-green {
   background-color: green;
 }
-.bg-salmon{
+
+.bg-salmon {
   background-color: salmon;
 }
-.bg-color{
+
+.bg-color {
   background-color: cyan;
 }
-
+.bg-black{
+  background-color: rgb(35, 39, 42);
+}
 /*header*/
 
 header {
@@ -95,15 +108,26 @@ li {
 }
 
 /*jumbotron*/
-.jumbotron{
+.jumbotron {
   width: 50%;
   height: 400px;
 }
-  
-  
+
+
 /*sections*/
 /*prima section*/
-.big-col, .small-col{
-height: 400px;
+.big-col,
+.small-col {
+  height: 400px;
 }
 
+.card {
+  height: 900px;
+  padding: 50px;
+}
+
+.box {
+  width: 60%;
+  height: 90%;
+  margin: 0 auto
+}
