@@ -12,6 +12,7 @@ body{
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  display: flex;
 }
 
 div {
@@ -33,10 +34,13 @@ section{
 .col-25 {
   width: 25%;
 }
-
+.col-40{
+  width: 40%;
+}
 .col-60 {
   width: 60%;
 }
+
 
 /*colors*/
 .bg-blue{
@@ -46,10 +50,10 @@ section{
   background-color: fuchsia;
 }
 .bg-grey{
-  background-color: rgb(190, 188, 188);
+  background-color: rgb(207, 204, 204);
 }
 .bg-lightblue{
-  background-color: rgb(36, 172, 235);
+  background-color: #1E90FF;
 }
 .bg-pink{
   background-color: pink;
@@ -90,6 +94,11 @@ li {
 .jumbotron{
   width: 50%;
   height: 400px;
-  
 }
   
+  
+/*sections*/
+/*prima section*/
+.big-col, .small-col{
+height: 400px;
+}
