@@ -3,22 +3,22 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/*laoutt classes*/
 body {
   background-color: white;
 }
 
-/*utils*/
+div {
+  border: 2px dashed black;
+}
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
 }
-
-div {
-  border: 2px dashed black;
-}
+  
+/*utils*/
 
 
 .d-flex {
@@ -136,10 +136,11 @@ li {
 }
 
 .box {
-  width: 60%;
-  height: 90%;
-  margin: 0 auto
+  margin: 0 auto;
+  height: 800px;
+  width: 100%;
 }
+ 
 
 /*footer*/
 footer {
@@ -156,7 +157,7 @@ div[class*="sec-col"] {
 }
 
 /*final bar*/
-.end-bar {
+.bottom-footer {
   justify-content: space-between;
   align-items: center;
   width: 100%;
